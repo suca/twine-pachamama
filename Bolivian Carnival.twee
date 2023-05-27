@@ -1,0 +1,102 @@
+:: StoryTitle
+Bolivian Carnival
+
+
+:: StoryData
+{
+  "ifid": "8D80CDE5-6AF8-4665-9347-85CA8FD1A9E6",
+  "format": "Harlowe",
+  "format-version": "3.3.5",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: Untitled Passage {"position":"2625,1125","size":"100,100"}
+<h1 class="pachamama-title">
+	PACHAMAMA - THE BOLIVIAN CARNIVAL
+</h1>
+<img src="https://raw.githubusercontent.com/suca19/pachamama-images/56663e6891895b81963f9774356cd8b4940214ea/cholita.png" class="pachamama-img-cholita">
+<button class="pachamama-button-start">START</button>
+
+
+:: StoryScript [script]
+const myFunction = () => {
+ return 
+}
+
+const myFunction2 = () => {
+ alert('hello!');
+}
+const myFunction3 = () => {
+ alert('hello!');
+}
+const myFunction4 = () => {
+ alert('hello!');
+}
+const myFunction5 = () => {
+ alert('hello!');
+}
+
+window.customFn = {
+	myFunction,
+  myFunction2,
+  myFunction3
+  ,myFunction4
+  ,myFunction5
+}
+
+:: StoryStylesheet [stylesheet]
+/************************************************ TAGS **************************************************/
+
+tw-story {
+  background: linear-gradient(45deg, #ff0080, #ffcc00, #00ccff, #00ff40);
+  background-size: 600% 600%;
+  animation: gradientAnimation 20s ease infinite;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+/************************************************ CLASSES ************************************************/
+.pachamama-title {
+	text-align: center;
+}
+  
+.pachamama-img-cholita {
+  width: 100px;
+  height: 100px;
+}
+
+.pachamama-button-start {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.pachamama-button-start:hover {
+  background-color: #ff8f00; 
+  cursor: pointer;
+
+}
+
+/************************************************ ANIMATIONS ************************************************/
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
