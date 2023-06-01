@@ -8,16 +8,171 @@ Bolivian Carnival
   "format": "Harlowe",
   "format-version": "3.3.5",
   "start": "Untitled Passage",
-  "zoom": 1
+  "zoom": 0.6
 }
 
 
-:: Untitled Passage {"position":"2625,1125","size":"100,100"}
+:: CONTINUE {"position":"2700,750","size":"100,100"}
+
+
+
+:: CREDITS {"position":"2700,500","size":"100,100"}
+
+
+
+:: Cholita {"position":"2700,1100","size":"100,100"}
+
+<p class="character-messages">Cholita:
+Maria, a young and ambitious cholita, grew up in the highlands of Bolivia, surrounded by the vibrant traditions and folklore of her indigenous community. Inspired by her grandmother's tales of strength and resilience, Maria embraced her cultural heritage with pride. Determined to showcase the beauty of Bolivian traditions, she embarked on a journey to the Bolivian carnival. With her remarkable sewing skills and a passion for dance, Maria became a beloved cholita figure, captivating the audience with her stunning traditional attire and graceful movements. As a playable character, Maria uses her agility, charm, and knowledge of Bolivian folklore to overcome obstacles and bring joy to those around her.
+</p>
+
+<button class= "button-SeeMore-cholita">[[See more...->seeMore1]]</button>
+
+
+:: Dancer {"position":"3100,1100","size":"100,100"}
+
+<p class="character-messages">Dancer:
+Juan, a talented and passionate dancer, was born into a family with a long lineage of carnival performers. From a young age, he honed his skills under the guidance of his parents, mastering the art of Bolivian traditional dances. As he grew older, Juan's captivating performances and infectious energy drew the attention of carnival enthusiasts from far and wide. His charisma and dedication to preserving Bolivian cultural heritage made him a celebrated figure in the carnival community. In the game, players can join Juan's journey as he strives for excellence, battles rival dancers, and discovers hidden dance techniques, ultimately becoming a legend in the Bolivian carnival scene.</p>
+
+<button class= "button-SeeMore-cholita">[[See more...->seeMore3]]</button>
+
+
+:: Drunky man {"position":"3300,1100","size":"100,100"}
+
+<p class="character-messages">Drunky Man:
+Pablo, a jovial and lighthearted character, is known by many as the life of the carnival. With his infectious laughter and playful spirit, he embodies the carefree nature of the festivities. However, Pablo's true talent lies in his ability to bring people together through his comedic performances and engaging storytelling. Though he occasionally indulges in the occasional drink, Pablo is mindful of celebrating responsibly and promotes a safe and enjoyable atmosphere for everyone. In the game, players encounter Pablo during various carnival challenges, where his humor and quick thinking help overcome obstacles and bring laughter to the carnival-goers.
+</p>
+
+<button class= "button-SeeMore-cholita">[[See more...->seeMore4]]
+
+
+:: Foreigner {"position":"2900,1100","size":"100,100"}
+
+<p class="character-messages">Foreigner:
+Emily, an adventurous traveler, found herself captivated by the enchanting tales of the Bolivian carnival. Eager to immerse herself in the rich culture and festivities, she ventured to Bolivia, wide-eyed and full of curiosity. Through chance encounters and kind-hearted locals, Emily quickly became enamored with the carnival's vibrant energy. Inspired by the warmth and acceptance she experienced, she joined a dance troupe and dedicated herself to learning the intricate steps of Bolivian traditional dances. As a foreigner navigating unfamiliar territory, Emily's story in the game unfolds as she embraces the carnival's magic, discovers new friendships, and learns valuable lessons about cultural exchange and appreciation.</p>
+
+<button class= "button-SeeMore-cholita">[[See more...->seeMore2]]</button>
+
+
+:: NEW GAME {"position":"2700,900","size":"100,100"}
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+    
+    .welcome-container {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .game-logo {
+      width: 200px;
+      height: auto;
+    }
+    
+    .welcome-heading {
+      font-size: 32px;
+      margin-top: 20px;
+      color: #333333;
+    }
+    
+    .welcome-description {
+      font-size: 20px;
+      margin-top: 10px;
+      color: #777777;
+    }
+    
+    .start-button {
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      font-size: 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .start-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-container">
+    <img src="game-logo.png" alt="Game Logo" class="game-logo">
+    <h1 class="welcome-heading">Welcome to the Bolivian Carnival!</h1>
+    <p class="welcome-description">Prepare to embark on a thrilling journey where brave carha conquer challenges, unravel mysteries, and shape their destinies. Immerse yourself in breathtaking landscapes, engage in epic battles, and forge lasting friendships. Are you ready to discover what awaits?</p>
+    <button class="start-button">[[Start Your Adventure]]</button>
+  </div>
+</body>
+</html>
+
+
+
+:: SETTINGS {"position":"2700,625","size":"100,100"}
+
+
+
+:: Start Your Adventure {"position":"3000,900","size":"100,100"}
+<p class="selection-description">it is time to select you character</p>
+
+    <button class="character-button">[[Cholita]]</button>
+     <button class="character-button">[[Foreigner]]</button> 
+    <button  class="character-button">[[Dancer]]</button>
+      <button class="character-button">[[Drunky man]]</button>
+
+
+:: Untitled Passage {"position":"2500,900","size":"100,100"}
 <h1 class="pachamama-title">
 	PACHAMAMA - THE BOLIVIAN CARNIVAL
 </h1>
+
 <img src="https://raw.githubusercontent.com/suca19/pachamama-images/56663e6891895b81963f9774356cd8b4940214ea/cholita.png" class="pachamama-img-cholita">
-<button class="pachamama-button-start">START</button>
+
+<div id="button-container">
+<button class="pachamama-button">[[NEW GAME]]</button>
+<button class = "pachamama-button">[[CONTINUE]]</button>
+<button class = "pachamama-button">[[CREDITS]]</button>
+<button class = "pachamama-button">[[SETTINGS]]</button>
+</div>
+
+
+:: seeMore1 {"position":"2700,1300","size":"100,100"}
+<p>Maria, a talented cholita seamstress, prepares for the upcoming Bolivian carnival with great anticipation. As she stitches together vibrant fabrics and adorns her costume with intricate details, she yearns to experience the true essence of the carnival that her grandmother often spoke of.
+</p>
+<button class= "button-SeeMore-cholita">[[See more...->seeMore11]]</button>
+
+
+:: seeMore11 {"position":"2700,1425","size":"100,100"}
+<p> The Carnival's Call
+As the carnival approaches, Maria hears whispers of a legendary mask that is said to reveal the hidden secrets and true spirit of the carnival. Intrigued by this legend, Maria sets out on her journey to find the mask, accompanied by her loyal pet llama, Tuki.
+</p>
+
+
+:: seeMore2 {"position":"2900,1300","size":"100,100"}
+
+
+
+:: seeMore3 {"position":"3100,1300","size":"100,100"}
+
+
+
+:: seeMore4 {"position":"3300,1300","size":"100,100"}
+
 
 
 :: StoryScript [script]
@@ -71,21 +226,27 @@ h1 {
   height: 100px;
 }
 
-.pachamama-button-start {
+.pachamama-button {
+  
   display: inline-block;
-  padding: 10px 20px;
+  padding: 30px 50px;
   background-color: #ff6f00;
   color: #ffffff;
   font-size: 16px;
   text-decoration: none;
   border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: 50%;
+  
+}
+#button-container{
+  
+  text-align: center;
+  margin: auto;
 }
 
-.pachamama-button-start:hover {
-  background-color: #ff8f00; 
-  cursor: pointer;
-
-}
 
 /************************************************ ANIMATIONS ************************************************/
 @keyframes gradientAnimation {
@@ -99,4 +260,3 @@ h1 {
     background-position: 0% 50%;
   }
 }
-
